@@ -1,10 +1,35 @@
-# Project details
+<div align="center">
 
-**Project name:** Whether the Weather<br>
-**Team members:** Albert Cho, Kana Takizawa, Kara Wong, Emily Wang
-**Total estimated time:** many hours<br>
-**Repo link:** https://github.com/emilywang188/hack24<br><br>
+# Whether the Weather
+## [Repo link](https://github.com/emilywang188/weather)
 
-# How to run program
+</div>
 
-To run Whether the Weather, you must start both the front end and back end separately. To start the front end, open the back folder in your IDE of choice, navigate to Server.py and click the green play button to start the server. This should produce the link http://locahost:3232 in the terminal, which you can navigate if you want to test the server on its own. You don't have to click the link. To run the front end, navigate to the directory back/src in another terminal, and run the command npm start in the terminal. This should produce the link http://localhost:3000 in the terminal, to which you can navigate to in a new browser page. This should load the page!
+## Built to help you go on adventures in Providence, RI!
+
+<div align="center">
+  <img alt="Demo" src="https://i.imgur.com/AuQrV0c.jpeg"/>
+</div>
+
+### Features:
+
+- Supports multiple users with SQL-based login
+- Accounts for current weather conditions to suggest activities
+- Accounts for intersections between what both you and your friends want to do
+- Anonymized preferences allow for comfortable use
+- Homemade database of activities in Providence, RI, made by Providence-based students for residents and visitors alike!
+
+### Contributors:
+- Albert Cho
+- Kana Takizawa (kana820)
+- Emily Wang (emilywang188)
+- Kara Wong (kwong60)
+
+### Using the repo:
+To start the backend:
+- Run `back\...\Server.py`
+  
+To start the frontend:
+- Navigate to `back\...\src and run the command `npm start`.
+
+Note: You may have to run `npm install` to download the required packages.
